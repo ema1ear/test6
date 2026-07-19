@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#dad2ce">
+    <meta name="robots" content="{{ROBOTS}}">
+
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+    <meta name="author" content="Emanuel Rocha">
+    <link rel="canonical" href="{{CANONICAL}}">
+    <link rel="alternate" hreflang="ca" href="{{ALTERNATE_CA}}">
+    <link rel="alternate" hreflang="es" href="{{ALTERNATE_ES}}">
+    <link rel="alternate" hreflang="x-default" href="{{ALTERNATE_DEFAULT}}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="{{OG_LOCALE}}">
+    <meta property="og:url" content="{{CANONICAL}}">
+    <meta property="og:title" content="{{TITLE}}">
+    <meta property="og:description" content="{{DESCRIPTION}}">
+    <meta property="og:site_name" content="Emanuel Rocha">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{TITLE}}">
+    <meta name="twitter:description" content="{{DESCRIPTION}}">
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles.css?v={{ASSET_VERSION}}">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://emanuelrocha.cat/#website","url":"https://emanuelrocha.cat/","name":"Emanuel Rocha","inLanguage":["ca","es"]},{"@type":"Person","@id":"https://emanuelrocha.cat/#person","name":"Emanuel Rocha","url":"https://emanuelrocha.cat/","email":"mailto:hola@emanuelrocha.cat","jobTitle":"Consultor de comunicación","knowsLanguage":["ca","es"],"address":{"@type":"PostalAddress","addressLocality":"Puigcerdà","addressRegion":"Catalunya","addressCountry":"ES"}}]}</script>
+    <script type="module" src="/assets/app.js?v={{ASSET_VERSION}}"></script>
+</head>
+<body data-state="{{INITIAL_STATE}}" data-route-key="{{ROUTE_KEY}}">
+    <a class="visually-hidden skip-link" href="#main-content">{{SKIP_TEXT}}</a>
+
+    <div class="app-container">
+        <header class="main-header">
+            <div class="brand-group">
+                <p><button type="button" class="brand-title" id="brand-home">Emanuel Rocha</button></p>
+                <p class="tag-line" id="brand-tag">{{TAG}}</p>
+            </div>
+        </header>
+
+        <main class="content-viewport" id="main-content" tabindex="-1">
+            <h1 class="visually-hidden" id="page-heading">{{PAGE_HEADING}}</h1>
+            <section class="view-welcome" id="view-welcome" aria-labelledby="node-welcome">
+                <div class="axis-box" id="box-name" aria-hidden="true">
+                    <h2 class="text-node">Emanuel Rocha</h2>
+                </div>
+                <div class="axis-box" id="box-welcome">
+                    <h2 class="text-node" id="node-welcome">{{WELCOME_TITLE}}</h2>
+                </div>
+                <div class="welcome-fade-block">
+                    <p class="interactive-prose" id="prose-text">{{WELCOME_HTML}}</p>
+                </div>
+            </section>
+
+            <section class="view-narrative" id="teleprompter" aria-label="{{NARRATIVE_LABEL}}">
+                <article class="narrative-text" id="narrative-content">{{NARRATIVE_HTML}}</article>
+            </section>
+
+            <section class="view-contact" id="view-contact" aria-labelledby="contact-heading">
+                <h2 class="visually-hidden" id="contact-heading">{{CONTACT_HEADING}}</h2>
+                <form class="contact-form" id="contact-form" novalidate>
+                    <fieldset class="form-group form-intent-group form-step" data-form-step="intent">
+                        <legend class="form-group-legend" id="form-intent-lead">{{FORM_INTENT_LEAD}}</legend>
+                        <div class="form-choice-row">
+                            <input class="visually-hidden form-choice-input" type="radio" id="choice-intent-A" name="intent" value="A" checked>
+                            <label class="form-choice-btn" id="choice-intent-A-label" for="choice-intent-A">{{INTENT_A}}</label>
+                            <span class="form-slash" aria-hidden="true">/</span>
+                            <input class="visually-hidden form-choice-input" type="radio" id="choice-intent-B" name="intent" value="B">
+                            <label class="form-choice-btn" id="choice-intent-B-label" for="choice-intent-B">{{INTENT_B}}</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-conditional-fields" id="form-fields-A" data-intent-panel="A">
+                        <label class="form-field form-step" data-form-step="project" for="form-project" hidden>
+                            <span class="form-field-label" id="form-project-label">{{A_PROJECT_LABEL}}</span>
+                            <span class="form-field-hint" id="form-project-hint">{{A_PROJECT_PLACEHOLDER}}</span>
+                            <textarea id="form-project" name="project" rows="1" maxlength="1500" aria-describedby="form-project-hint" required></textarea>
+                        </label>
+
+                        <label class="form-field form-step" data-form-step="starting-point" for="form-starting-point" hidden>
+                            <span class="form-field-label" id="form-starting-point-label">{{A_STARTING_LABEL}}</span>
+                            <span class="form-field-hint" id="form-starting-point-hint">{{A_STARTING_PLACEHOLDER}}</span>
+                            <textarea id="form-starting-point" name="startingPoint" rows="1" maxlength="1500" aria-describedby="form-starting-point-hint" required></textarea>
+                        </label>
+
+                        <label class="form-field form-step" data-form-step="success-a" for="form-success-A" hidden>
+                            <span class="form-field-label" id="form-success-A-label">{{A_SUCCESS_LABEL}}</span>
+                            <span class="form-field-hint" id="form-success-A-hint">{{A_SUCCESS_PLACEHOLDER}}</span>
+                            <textarea id="form-success-A" name="successA" rows="1" maxlength="1500" aria-describedby="form-success-A-hint" required></textarea>
+                        </label>
+
+                        <fieldset class="form-group form-urgency-group form-step" data-form-step="urgency" hidden>
+                            <legend class="form-group-legend" id="form-urgency-label">{{A_URGENCY_LABEL}}</legend>
+                            <div class="form-radio-stack">
+                                <input class="visually-hidden form-option-input" type="radio" id="urgency-asap" name="urgency" value="asap" required>
+                                <label class="form-option-label" id="urgency-asap-label" for="urgency-asap">{{A_URGENCY_ASAP}}</label>
+                                <span class="form-option-divider" aria-hidden="true">/</span>
+
+                                <input class="visually-hidden form-option-input" type="radio" id="urgency-date" name="urgency" value="date">
+                                <label class="form-option-label" id="urgency-date-label" for="urgency-date">{{A_URGENCY_DATE}}</label>
+                                <span class="form-option-divider" aria-hidden="true">/</span>
+
+                                <input class="visually-hidden form-option-input" type="radio" id="urgency-open" name="urgency" value="open">
+                                <label class="form-option-label" id="urgency-open-label" for="urgency-open">{{A_URGENCY_OPEN}}</label>
+                            </div>
+
+                            <label class="form-field form-date-field" id="form-date-field" for="form-target-date" hidden>
+                                <span class="form-field-label" id="form-target-date-label">{{A_DATE_LABEL}}</span>
+                                <input type="date" id="form-target-date" name="targetDate" disabled>
+                            </label>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-conditional-fields" id="form-fields-B" data-intent-panel="B" hidden>
+                        <label class="form-field form-step" data-form-step="situation" for="form-situation" hidden>
+                            <span class="form-field-label" id="form-situation-label">{{B_SITUATION_LABEL}}</span>
+                            <span class="form-field-hint" id="form-situation-hint">{{B_SITUATION_PLACEHOLDER}}</span>
+                            <textarea id="form-situation" name="situation" rows="1" maxlength="1500" aria-describedby="form-situation-hint" required disabled></textarea>
+                        </label>
+
+                        <label class="form-field form-step" data-form-step="attempts" for="form-attempts" hidden>
+                            <span class="form-field-label" id="form-attempts-label">{{B_ATTEMPTS_LABEL}} <small>({{OPTIONAL}})</small></span>
+                            <span class="form-field-hint" id="form-attempts-hint">{{B_ATTEMPTS_PLACEHOLDER}}</span>
+                            <textarea id="form-attempts" name="attempts" rows="1" maxlength="1500" aria-describedby="form-attempts-hint" disabled></textarea>
+                        </label>
+
+                        <label class="form-field form-step" data-form-step="success-b" for="form-success-B" hidden>
+                            <span class="form-field-label" id="form-success-B-label">{{B_SUCCESS_LABEL}}</span>
+                            <span class="form-field-hint" id="form-success-B-hint">{{B_SUCCESS_PLACEHOLDER}}</span>
+                            <textarea id="form-success-B" name="successB" rows="1" maxlength="1500" aria-describedby="form-success-B-hint" required disabled></textarea>
+                        </label>
+                    </div>
+
+                    <div class="form-step form-final-step" data-form-step="identity" hidden>
+                        <div class="form-common-fields">
+                            <label class="form-field" for="form-name">
+                                <span class="form-field-label" id="form-name-label">{{NAME_LABEL}}</span>
+                                <input type="text" id="form-name" name="name" placeholder="{{NAME_PLACEHOLDER}}" autocomplete="name" maxlength="100" required>
+                            </label>
+
+                            <label class="form-field" for="form-email">
+                                <span class="form-field-label" id="form-email-label">{{EMAIL_LABEL}}</span>
+                                <input type="email" id="form-email" name="email" placeholder="{{EMAIL_PLACEHOLDER}}" autocomplete="email" inputmode="email" maxlength="254" required>
+                            </label>
+                        </div>
+
+                        <p class="form-promise" id="form-promise">{{FORM_PROMISE}}</p>
+                        {{FORM_PRIVACY_HTML}}
+                    </div>
+
+                    <label class="visually-hidden" for="website">No rellenar este campo</label>
+                    <input class="visually-hidden" type="text" id="website" name="website" autocomplete="off" tabindex="-1">
+                    <input type="hidden" id="form-language" name="language" value="{{LANG}}">
+                    <button type="submit" class="visually-hidden">{{SUBMIT}}</button>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </section>
+
+            <section class="view-operations" id="operations-view" aria-labelledby="operations-heading">
+                <h2 class="visually-hidden" id="operations-heading">{{OPERATIONS_HEADING}}</h2>
+                <p class="interactive-prose" id="operations-intro">{{OPERATIONS_INTRO}}</p>
+                <div class="cabinet-system" id="cabinet-container">{{CABINET_HTML}}</div>
+            </section>
+        </main>
+
+        <div class="focus-companion" id="focus-companion" data-mode="{{FOCUS_MODE}}" data-active="false" aria-hidden="true">
+            <span class="focus-rail">
+                <span class="focus-rail-fill"></span>
+            </span>
+            <span class="focus-ticks" id="focus-ticks"></span>
+            <svg class="focus-mark" viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                <path class="focus-bracket focus-bracket-left" d="M9 4H4V20H9"></path>
+                <path class="focus-bracket focus-bracket-right" d="M15 4H20V20H15"></path>
+                <circle class="focus-core" cx="12" cy="12" r="1.75"></circle>
+            </svg>
+        </div>
+
+        <footer class="main-footer">
+            <div class="footer-col-left">
+                <button type="button" class="meta-text" id="btn-contact" data-action="contact">{{CONTACT}}</button>
+                <button type="button" class="meta-text" id="btn-back" data-action="back">{{BACK}}</button>
+                <button type="button" class="meta-text" id="btn-cancel-contact" data-action="cancel">{{CANCEL}}</button>
+                <button type="button" class="meta-text form-footer-control" id="btn-form-previous" data-action="form-previous" hidden>{{FORM_PREVIOUS}}</button>
+                <button type="button" class="meta-text operation-footer-control" id="btn-operation-left" data-action="operation-index">{{OPERATIONS_LEFT}}</button>
+            </div>
+
+            <div class="footer-col-center">
+                <button type="button" class="meta-text" id="btn-operations-footer" data-action="operations">{{OPERATIONS}}</button>
+                <span class="meta-text form-footer-control form-progress" id="form-progress" aria-live="polite"></span>
+                <span class="meta-text operation-footer-control operation-progress" id="operation-progress" aria-live="polite">{{OPERATIONS_PROGRESS}}</span>
+            </div>
+
+            <div class="footer-col-right">
+                <nav class="lang-selector-inline" id="lang-inline-container" aria-label="{{LANGUAGE_ARIA}}">
+                    <button type="button" class="meta-text" id="lang-toggle" data-action="language-menu" aria-haspopup="true" aria-expanded="false">{{LANGUAGE_ACTIVE}}</button>
+                    <div class="lang-options-slide" id="language-options" aria-hidden="true">
+                        <button type="button" class="meta-text lang-opt" id="opt-ca" data-action="language" data-lang="ca" tabindex="-1" lang="ca">CA</button>
+                        <span class="lang-divider-dot" aria-hidden="true">·</span>
+                        <button type="button" class="meta-text lang-opt" id="opt-es" data-action="language" data-lang="es" tabindex="-1" lang="es">ES</button>
+                    </div>
+                </nav>
+                <button type="button" class="meta-text form-footer-control" id="btn-form-next" data-action="form-next">{{FORM_CONTINUE}}</button>
+                <button type="button" class="meta-text operation-footer-control" id="btn-operation-right" data-action="operation-next">{{OPERATIONS_RIGHT}}</button>
+            </div>
+        </footer>
+        {{LEGAL_LINK_HTML}}
+    </div>
+
+    <noscript>
+        <p>JavaScript és necessari per a l'experiència interactiva. Pots visitar les versions en <a href="/ca/">català</a> o <a href="/es/">castellano</a>, o escriure a <a href="mailto:hola@emanuelrocha.cat">hola@emanuelrocha.cat</a>.</p>
+    </noscript>
+</body>
+</html>
