@@ -173,7 +173,6 @@ export const operationsCatalog = {
                     "cannot": [
                         "Consta un ús inicial del sistema immobiliari, però no una mesura continuada del temps o la càrrega estalviats.",
                         "El seguiment de BAMODOG va ser qualitatiu: mostra un patró observat, no una enquesta estandarditzada.",
-                        "Sense un registre formal d’incidències no es pot afirmar una absència total d’errors.",
                         "Hi ha indicis que algunes accions del pla cultural van començar, però no consta una aplicació completa."
                     ]
                 },
@@ -383,7 +382,6 @@ export const operationsCatalog = {
                     "cannot": [
                         "Consta un uso inicial del sistema inmobiliario, pero no una medición continuada del tiempo o la carga ahorrados.",
                         "El seguimiento de BAMODOG fue cualitativo: muestra un patrón observado, no una encuesta estandarizada.",
-                        "Sin un registro formal de incidencias no puede afirmarse una ausencia total de fallos.",
                         "Hay indicios de que algunas acciones del plan cultural comenzaron, pero no consta una aplicación completa."
                     ]
                 },
