@@ -116,7 +116,7 @@ export const operationsCatalog = {
                         }
                     ]
                 },
-                "limit": "La selecció recull la via recomanada. En una reunió oficial es va plantejar seguir-la i hi ha indicis d’un inici parcial, no d’una aplicació completa."
+                "limit": "La selecció recull la via recomanada. El pla es va presentar en una reunió oficial i algunes accions van començar a desplegar-se, sense que consti una aplicació completa."
             },
             {
                 "id": "op-04",
@@ -168,12 +168,12 @@ export const operationsCatalog = {
                         "Es va dissenyar per reduir cerques disperses i tasques repetitives de preparació, i es podia replicar per a altres professionals.",
                         "Durant dos mesos, el sistema es va provar en 31 serveis i el seguiment es va fer presencialment o per WhatsApp.",
                         "En prop de nou de cada deu serveis, la satisfacció es va expressar de manera més clara i constant que abans.",
-                        "El pla cultural es va investigar, formular i presentar; en una reunió oficial es va plantejar seguir-lo."
+                        "El pla cultural es va investigar, formular i presentar en una reunió oficial."
                     ],
                     "cannot": [
                         "Consta un ús inicial del sistema immobiliari, però no una mesura continuada del temps o la càrrega estalviats.",
                         "El seguiment de BAMODOG va ser qualitatiu: mostra un patró observat, no una enquesta estandarditzada.",
-                        "Hi ha indicis que algunes accions del pla cultural van començar, però no consta una aplicació completa."
+                        "Algunes accions del pla cultural van començar a desplegar-se, tot i que no consta una aplicació completa."
                     ]
                 },
                 "limit": "Cada cas acaba on acaba l’evidència. Així, el valor de la feina queda en allò que demostra, sense atribuir-li decisions o resultats aliens."
@@ -325,7 +325,7 @@ export const operationsCatalog = {
                         }
                     ]
                 },
-                "limit": "La selección recoge la vía recomendada. En una reunión oficial se planteó seguirla y hay indicios de un inicio parcial, no de una aplicación completa."
+                "limit": "La selección recoge la vía recomendada. El plan se presentó en una reunión oficial y algunas acciones comenzaron a ponerse en marcha, sin que conste una aplicación completa."
             },
             {
                 "id": "op-04",
@@ -377,12 +377,12 @@ export const operationsCatalog = {
                         "Se diseñó para reducir búsquedas dispersas y tareas repetitivas de preparación, y podía replicarse para otros profesionales.",
                         "Durante dos meses, el sistema se probó en 31 servicios y el seguimiento se realizó en persona o por WhatsApp.",
                         "En cerca de nueve de cada diez servicios, la satisfacción se expresó de forma más clara y constante que antes.",
-                        "El plan cultural fue investigado, formulado y presentado; en una reunión oficial se planteó seguirlo."
+                        "El plan cultural fue investigado, formulado y presentado en una reunión oficial."
                     ],
                     "cannot": [
                         "Consta un uso inicial del sistema inmobiliario, pero no una medición continuada del tiempo o la carga ahorrados.",
                         "El seguimiento de BAMODOG fue cualitativo: muestra un patrón observado, no una encuesta estandarizada.",
-                        "Hay indicios de que algunas acciones del plan cultural comenzaron, pero no consta una aplicación completa."
+                        "Algunas acciones del plan cultural comenzaron a ponerse en marcha, aunque no consta una aplicación completa."
                     ]
                 },
                 "limit": "Cada caso termina donde acaba la evidencia. Así, el valor del trabajo queda en lo que demuestra, sin atribuirle decisiones o resultados ajenos."

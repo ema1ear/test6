@@ -58,7 +58,7 @@ Un responsable operativo pidió formación en *prompt engineering*. Perdía tiem
 
 BAMODOG pensaba fidelizar con regalos. Estructuré los reportes por WhatsApp y seguí 31 servicios durante dos meses: en cerca de nueve de cada diez, la respuesta fue más positiva y constante que antes.
 
-Una promotora quiso corregir una noticia tras las protestas. El conflicto era la pérdida cultural. Preparé un plan; en una reunión oficial se planteó seguirlo y hay indicios de que algunas acciones se iniciaron.
+Una promotora quiso corregir una noticia tras las protestas. El conflicto era la pérdida cultural. Preparé un plan, lo presenté en una reunión oficial y algunas de sus acciones comenzaron a ponerse en marcha.
 
 Me llamo Emanuel Rocha. He trabajado en editoriales, comercio, inmobiliario y negocios locales. Por eso no separo un texto de la decisión ni del proceso que debe sostenerlo.
 
@@ -98,7 +98,7 @@ Un responsable d’operacions va demanar formació en *prompt engineering*. Perd
 
 BAMODOG pensava fidelitzar amb regals. Vaig estructurar els informes per WhatsApp i vaig fer seguiment de 31 serveis durant dos mesos: en prop de nou de cada deu, la resposta va ser més positiva i constant que abans.
 
-Una promotora volia corregir una notícia arran de les protestes. El conflicte era la pèrdua cultural. Vaig preparar un pla; en una reunió oficial es va plantejar seguir-lo i sembla que algunes accions van començar.
+Una promotora volia corregir una notícia arran de les protestes. El conflicte era la pèrdua cultural. Vaig preparar un pla, el vaig presentar en una reunió oficial i algunes accions van començar a desplegar-se.
 
 Em dic Emanuel Rocha. He treballat en editorials, comerç, immobiliari i negocis locals. Per això no separo un text de la decisió ni del procés que l’ha de sostenir.
 
@@ -174,7 +174,7 @@ El conflicto no estaba solo en el artículo. Aquel lugar tenía un significado p
 
 Trabajé de forma confidencial con el responsable, analicé el rechazo y preparé un plan. La propuesta era apoyar actividades culturales en otra institución que ya asumía parte de esa función.
 
-Presenté el plan al equipo y, en una reunión oficial, se planteó seguirlo. Hay indicios de que algunas acciones llegaron a ponerse en marcha.
+Presenté el plan al equipo en una reunión oficial. Algunas de sus acciones comenzaron a ponerse en marcha.
 
 Una formación, un regalo, una rectificación. Tres soluciones razonables.
 
@@ -252,7 +252,7 @@ El conflicte no era només a l’article. Aquell lloc tenia un significat per a 
 
 Vaig treballar de manera confidencial amb el responsable, vaig analitzar el rebuig i vaig preparar un pla. La proposta era donar suport a activitats culturals en una altra institució que ja assumia part d’aquella funció.
 
-Vaig presentar el pla a l’equip i, en una reunió oficial, es va plantejar seguir-lo. Hi ha indicis que algunes accions es van arribar a posar en marxa.
+Vaig presentar el pla a l’equip en una reunió oficial. Algunes accions van començar a desplegar-se.
 
 Una formació, un regal, una rectificació. Tres solucions raonables.
 
